@@ -1,0 +1,44 @@
+{
+  "name": "wm-captcha",
+  "version": "1.0.7",
+  "description": "WM Cookie Consent: Lightweight open-source JavaScript library for GDPR compliant cookie consent and script blocking.",
+  "main": "dist/wm-captcha.js",
+  "module": "dist/wm-captcha.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node dev_tools/esbuild.config.js && node dev_tools/test.js",
+    "dev": "node dev_tools/esbuild.config.js",
+    "test": "echo \"No tests yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wikimint/wm-captcha.git"
+  },
+  "keywords": [
+    "captcha",
+    "gdpr",
+    "cookie-banner",
+    "cookie-management",
+    "consent-management",
+    "privacy",
+    "gdpr-compliance",
+    "javascript-cookie",
+    "cookie-policy",
+    "script-blocking"
+  ],
+  "author": "Selvakumaran Krishnan",
+  "license": "Propreitary",
+  "bugs": {
+    "url": "https://github.com/wikimint/wm-captcha/issues"
+  },
+  "homepage": "https://github.com/wikimint/wm-captcha",
+  "type": "commonjs",
+  "devDependencies": {
+    "esbuild": "^0.27.4",
+    "google-closure-compiler": "^20260311.0.0",
+    "google-closure-compiler-windows": "^20260311.0.0",
+    "javascript-obfuscator": "^5.3.0"
+  }
+}
